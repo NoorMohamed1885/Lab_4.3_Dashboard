@@ -3,7 +3,7 @@ import pandas as pd
 import altair as alt
 import plotly.express as px
 
-df = pd.read_csv('streamlit/data/AtropellosGS2015.csv')
+df = pd.read_csv('Streamlit/data/AtropellosGS2015.csv')
 
 st.set_page_config(
     page_title="Santiago de Chile Dashboard",
